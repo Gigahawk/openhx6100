@@ -1,0 +1,125 @@
+( { EESchema Netlist Version 1.1 created  2023-06-27 3:05:58 AM }
+ ( /b526a924-855a-4bad-b0bc-6bcf21ed63b5 Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm  C4 1n
+  (    1 Net-(U1-THR) )
+  (    2 GND )
+ )
+ ( /54c49b64-d11e-42b0-92c0-16581a99a9f0 Package_DIP:DIP-8_W7.62mm  U1 TLC555xD
+  (    1 GND )
+  (    2 Net-(U1-THR) )
+  (    3 OSC )
+  (    4 Net-(U1-R) )
+  (    5 Net-(U1-CV) )
+  (    6 Net-(U1-THR) )
+  (    7 unconnected-(U1-DIS-Pad7) )
+  (    8 +5V )
+ )
+ ( /d00fd08b-2e80-49a8-b6a6-49d3a9c7d5a7 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R5 7.87k
+  (    1 Net-(U1-THR) )
+  (    2 OSC )
+ )
+ ( /f6892d33-8ddf-4277-969a-e6a4b2666a95 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R6 10k
+  (    1 +5V )
+  (    2 ~{OSC} )
+ )
+ ( /007e19ee-e96a-4eba-8b8e-d522c63c676f Package_TO_SOT_THT:TO-92_Inline  Q8 2N7000
+  (    1 GND )
+  (    2 OSC )
+  (    3 ~{OSC} )
+ )
+ ( /11c54f4b-9305-4301-ad65-be43c1702906 Package_TO_SOT_THT:TO-92_Inline  Q2 2N3904
+  (    1 GND )
+  (    2 Net-(Q2-B) )
+  (    3 Net-(Q2-C) )
+ )
+ ( /d3095a7a-2397-4484-b804-b15ffd251925 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R7 2.2k
+  (    1 OSC )
+  (    2 Net-(Q2-B) )
+ )
+ ( /b8824019-6f24-4c8d-a236-4758d1a68865 Package_TO_SOT_THT:TO-220-3_Vertical  Q4 IRLB8748
+  (    1 ~{OSC} )
+  (    2 LOAD )
+  (    3 GND )
+ )
+ ( /624a9600-96d6-41ae-a531-f5dadc2c6ad4 Package_TO_SOT_THT:TO-220-3_Vertical  Q3 IRF5210
+  (    1 Net-(Q2-C) )
+  (    2 LOAD )
+  (    3 VCC )
+ )
+ ( /c27dceac-cc66-4bcc-91f7-46b600c5c018 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R8 10k
+  (    1 Net-(Q2-C) )
+  (    2 VCC )
+ )
+ ( /7a34faf8-b343-4722-a3ca-47566c1e814b Package_TO_SOT_THT:TO-220-3_Vertical  Q5 IRF5210
+  (    1 Net-(Q5-G) )
+  (    2 COIL2 )
+  (    3 VCC )
+ )
+ ( /39db3735-31c0-44a1-bf76-2fe95e14b048 Package_TO_SOT_THT:TO-220-3_Vertical  Q6 IRLB8748
+  (    1 OSC )
+  (    2 COIL2 )
+  (    3 GND )
+ )
+ ( /d3e730ef-833a-4ad7-b7fd-714287828d62 Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm  C2 100n
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /51c66073-4a1f-4f65-80ed-b7d84f4043be Capacitor_THT:CP_Radial_D5.0mm_P2.00mm  C1 1u
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /72242d6f-6c5c-4b35-9095-04875149d799 Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm  C3 10n
+  (    1 GND )
+  (    2 Net-(U1-CV) )
+ )
+ ( /70a38204-8e58-4db9-9d51-a39e0d744b92 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R4 0
+  (    1 Net-(U1-R) )
+  (    2 +5V )
+ )
+ ( /113b3796-9e70-4788-9bd0-dec95663a651 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R9 10k
+  (    1 Net-(Q5-G) )
+  (    2 VCC )
+ )
+ ( /a27db459-c4b7-41ba-84ba-7012cf462682 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R10 2.2k
+  (    1 Net-(Q7-B) )
+  (    2 ~{OSC} )
+ )
+ ( /9cc8f06e-9098-490d-a7de-15ac2e7d6a97 Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm  C5 560n
+  (    1 LOAD )
+  (    2 COIL1 )
+ )
+ ( /4625100d-1e15-4c06-9123-859e0bca3e04 Package_TO_SOT_THT:TO-92_Inline  Q7 2N3904
+  (    1 GND )
+  (    2 Net-(Q7-B) )
+  (    3 Net-(Q5-G) )
+ )
+ ( /06555cbe-795d-415e-a4d6-81372c5f13d0 Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm  C6 560n
+  (    1 COIL1 )
+  (    2 COIL2 )
+ )
+ ( /ad6dedd9-52b2-43ac-9a25-d548edc1c818 Inductor_THT:L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2  L1 6.2u
+  (    1 COIL1 )
+  (    2 COIL2 )
+ )
+ ( /78d69efe-3e40-494c-b998-50b756486c2d Gigahawk:UJC-HP-3-SMT-TR  J1 USB_C_Receptacle_PowerOnly_6P
+  (   A5 Net-(J1-CC1) )
+  (   A9 +5V )
+  (  A12 GND )
+  (   B5 Net-(J1-CC2) )
+  (   B9 +5V )
+  (  B12 GND )
+  (   S1 Net-(J1-SHIELD) )
+ )
+ ( /535cbb8f-324c-4571-866b-fd3eaf001832 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R1 0
+  (    1 Net-(J1-SHIELD) )
+  (    2 GND )
+ )
+ ( /62fc5b5f-b93d-479d-8e67-13f9351d1631 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R3 5.1k
+  (    1 Net-(J1-CC1) )
+  (    2 GND )
+ )
+ ( /f0a81317-05b1-4421-b87d-dbee2cd6b729 Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal  R2 5.1k
+  (    1 Net-(J1-CC2) )
+  (    2 GND )
+ )
+)
+*
