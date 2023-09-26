@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "openhx6100")
+    (date "${DATE}")
+    (rev "${TAG} (${HASH})")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC14" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
